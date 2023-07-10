@@ -38,7 +38,7 @@ export const ChatMessage = ({ open, chatflowid, isDialog }) => {
     const [loading, setLoading] = useState(false)
     const [messages, setMessages] = useState([
         {
-            message: 'Hi there! How can I help?',
+            message: '您好，有什么可以帮您?',
             type: 'apiMessage'
         }
     ])
