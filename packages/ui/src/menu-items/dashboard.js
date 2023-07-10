@@ -13,7 +13,7 @@ const dashboard = {
     children: [
         {
             id: 'chatflows',
-            title: 'Chatflows',
+            title: '机器人管理（工作流）',
             type: 'item',
             url: '/chatflows',
             icon: icons.IconHierarchy,
