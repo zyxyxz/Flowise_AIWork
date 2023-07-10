@@ -418,7 +418,7 @@ const Canvas = () => {
             dispatch({
                 type: SET_CHATFLOW,
                 chatflow: {
-                    name: 'Untitled chatflow'
+                    name: '未命名工作流'
                 }
             })
         }

@@ -137,7 +137,7 @@ const Marketplace = () => {
         <>
             <MainCard sx={{ background: customization.isDarkMode ? theme.palette.common.black : '' }}>
                 <Stack flexDirection='row'>
-                    <h1>Marketplace</h1>
+                    <h1>模板市场 Marketplace</h1>
                 </Stack>
                 <Tabs sx={{ mb: 2 }} variant='fullWidth' value={value} onChange={handleChange} aria-label='tabs'>
                     {tabItems.map((item, index) => (
