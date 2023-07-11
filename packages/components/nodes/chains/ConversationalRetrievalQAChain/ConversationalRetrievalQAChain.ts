@@ -84,7 +84,7 @@ class ConversationalRetrievalQAChain_Chains implements INode {
                 additionalParams: true,
                 optional: true,
                 placeholder:
-                    '我想让您充当与我对话的文档。您的名字是 "人工智能助理"。你将从给定的信息中为我提供答案。如果没有答案，请说 "我不确定"，然后停止。拒绝回答任何与信息无关的问题。不要破坏角色。'
+                    '我想让您充当与我对话的文档。您的名字是 "人工智能助理"。你将从给定的信息中为我提供答案，如果没有答案，请说 "我不确定"，然后停止。拒绝回答任何与信息无关的问题。不要破坏角色。请用中文回答。'
             },
             {
                 label: 'Chain Option',
